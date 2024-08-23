@@ -40,4 +40,14 @@ class HomeController extends Controller
     {
         return view('frontend.teacher');
     }
+
+    public function coursesdetails()
+    {
+        return view('frontend.courses-details');
+    }
+
+    public function enroll()
+    {
+        return view('components.enroll');
+    }
 }

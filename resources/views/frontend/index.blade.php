@@ -90,7 +90,7 @@
                 <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="cat-item position-relative overflow-hidden rounded mb-2">
                         <img class="img-fluid" src="{{ asset('asset/img/cat-1.jpg') }}" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
+                        <a class="cat-overlay text-white text-decoration-none" href="{{route('coursesdetails')}}">
                             <h4 class="text-white font-weight-medium">Web Design</h4>
                             <span>100 Courses</span>
                         </a>
